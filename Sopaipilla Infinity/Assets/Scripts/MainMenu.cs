@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
 
     public void EscenaJuego()
     {
-        SceneManager.LoadScene("Nivel 1 Templo");
+        SceneManager.LoadScene("Nivel1Templo");
     }
 
     public void CargarNivel(string nombreNivel)
@@ -24,5 +24,10 @@ public class MainMenu : MonoBehaviour
     public void BackToMenu()
     {
         SceneManager.LoadScene("Menu");
+    }
+
+    public void Creditos()
+    {
+        SceneManager.LoadScene("Creditos");
     }
 }
